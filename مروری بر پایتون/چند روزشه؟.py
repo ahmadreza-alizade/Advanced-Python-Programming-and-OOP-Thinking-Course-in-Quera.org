@@ -3,6 +3,7 @@ from datetime import datetime
 
 def day_calculator(date):
     sajad_dt = "1999-01-14"
+    #sajad_dt = datetime.strptime(sajad_dt , "%Y-%m-%d")
     sajad_birth = list(map(int, sajad_dt.split("-")))
     sajad_dt = datetime(*sajad_birth)
 
