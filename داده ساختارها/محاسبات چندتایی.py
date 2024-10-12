@@ -12,7 +12,14 @@ def calc(a: list) -> tuple:
 
     t = (avg_l, m_l, max_l)
     return (t)
+# from statistics import mean, median
 
+# def calc(a: list) -> tuple:
+#     avg = mean(a)  # محاسبه میانگین
+#     med = median(a)  # محاسبه میانه
+#     max_value = max(a)  # محاسبه بزرگترین عدد
+
+#     return (avg, med, max_value)  # بازگشت یی
 
 if __name__ == "__main__":
     print(calc([2, 20, 30, 29]))
